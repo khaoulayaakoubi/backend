@@ -47,7 +47,10 @@ public class User {
 		this.password = password;
 	}
 
-	public Long getId() {
+    public User(Long userId, Object o) {
+    }
+
+    public Long getId() {
 		return id;
 	}
 
